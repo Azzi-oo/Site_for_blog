@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'taggit',
 
     'blog',
 ]
@@ -73,7 +74,7 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'azatanberdin02@gmail.com'
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_PASSWORD = 'azatik10'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
